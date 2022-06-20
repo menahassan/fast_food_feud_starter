@@ -7,7 +7,7 @@ export function NutritionalLabel(props) {
     <div className="nutritional-label">
       <h3 className="title">Nutrition Facts</h3>
 
-      <h4 className="item-name">{`CHANGE_ME`}</h4>
+      <h4 className="item-name">{props}</h4>
 
       <ul className="fact-list">{/* WRITE CODE HERE */}</ul>
     </div>
